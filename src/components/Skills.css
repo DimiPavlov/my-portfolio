@@ -1,0 +1,9 @@
+.skills {
+    display: flex;
+    
+}
+
+.progress {
+    margin: auto;
+    width: 75%;
+}

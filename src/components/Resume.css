@@ -1,0 +1,20 @@
+.resume-body {
+    background:   #2C3E50;  
+    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  
+    background: linear-gradient(to right, #4CA1AF, #2C3E50); 
+}
+
+.resume-right-col {
+
+    padding: 2em;
+    color: white
+
+}
+
+.left-side {
+    text-align: center;
+}
+
+.avatar {
+    height: 220px;
+}
