@@ -23,19 +23,22 @@
     font-family: 'Courgette', cursive;
 }
 
-.contact-grid p {
+.contact-grid h5 {
     font-family: 'Courgette', cursive;
 
 }
 
 .image {
-    width: 250px;
+    width: 300px;
+    padding-top: 15px;
+    padding-left: 15px;
 }
 
 .text {
-    width: 75%;
-    margin: auto;
-    padding-top: 1em;
+    width: 65%;
+    /* float: left; */
+    color: white;
+    text-align: center;
 }
 
 .contact-list i {
@@ -43,3 +46,11 @@
     padding-right: 5rem;
 }
 
+.contact-body {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.contact-info {
+    margin-top: -17px;
+}

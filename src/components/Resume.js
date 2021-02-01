@@ -3,7 +3,8 @@ import { Grid, Cell } from "react-mdl";
 import "./Resume.css";
 import Education from "./Education";
 import Experince from "./Experience";
-import Skills from "./Skills"
+import Skills from "./Skills";
+import Title from "./Title"
 
 class Resume extends Component {
     render() {
@@ -19,45 +20,43 @@ class Resume extends Component {
                             />
                         </div>
 
-                        <h2>Dimitar Pavlov</h2>
-                        <h4>Programmer</h4>
+                        <Title text="Dimitar Pavlov" />
                         <hr />
                         <h5>Address</h5>
                         <p>b-dul "Regina Maria" 47, Bucharest, Romania</p>
                         <h5>Email</h5>
                         <p>dimitar_animation@yahoo.com</p>
-                        <h5>Telephone</h5>
-                        <p>0040753828545</p>
-                        <p>0054543543543</p>
+                        <h5>Mobile Phones</h5>
+                        <p>+40724988936</p>
+                        <p>+359892208059</p>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                         <h2>Education</h2>
                         <Education 
                             startYear={2020}
                             endYear={2020}
-                            schoolName="Wild Code School"
+                            schoolName="Wild Code School Bucahrest/Milan Campus"
                             schoolDescription="Front-End Developer"
                         />
 
                         <Education 
                             startYear={2005}
                             endYear={2005}
-                            schoolName="Red Rock Community College"
+                            schoolName="Red Rock Community College Denver/Colorado"
                             schoolDescription="Motion Graphic Animation"
                         />
 
                         <Education 
                             startYear={2000}
                             endYear={2005}
-                            schoolName="Foreign Languages Gymnasium"
-                            schoolDescription="German and English enhanced learing school"
+                            schoolName="Foreign Languages Gymnasium Plovdiv"
+                            schoolDescription="German and English enhanced learning school"
                         />
 
                         <h2>Experience</h2>
 
                         <Experince 
-                            startYear={2020}
-                            endYear={2020}
+                             
                         />
 
                         <h2>Skills</h2>
@@ -68,13 +67,13 @@ class Resume extends Component {
                         />
                          <Skills 
                             skill="JavaScript"
-                            propgress={50}
-                            buffer={50}
+                            propgress={70}
+                            buffer={70}
                         />
                          <Skills 
                             skill="React"
-                            propgress={60}
-                            buffer={60}
+                            propgress={50}
+                            buffer={50}
                         />
 
                     </Cell>

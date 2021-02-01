@@ -1,5 +1,5 @@
 .resume-body {
-    background:   #2C3E50;  
+    background:   #eff3f7;  
     background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  
     background: linear-gradient(to right, #4CA1AF, #2C3E50); 
 }
@@ -18,3 +18,4 @@
 .avatar {
     height: 220px;
 }
+

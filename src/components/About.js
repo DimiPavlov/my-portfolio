@@ -1,13 +1,15 @@
-import React, { Component } from "react"
+import React from "react";
+import SinglePage from "./SinglePage"
+import DimiResume from "./Dimi-Resume.pdf"
 
-class About extends Component {
-    render() {
-        return(
-            <div>
-                <h1>Hello from About</h1>
-            </div>
-        )
-    }
+
+const About = () => {
+    return (
+        <div>
+            <SinglePage  />
+        </div>
+    )
 }
 
-export default About
+
+export default About 

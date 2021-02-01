@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="demo-big-content">
     <Layout>
-        <Header className="nav-colors" title={<Link to="/">MyPortFolio</Link>} scroll>
+        <Header className="nav-colors" title={<Link className="header" to="/">Portfolio</Link>} scroll>
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/about">About</Link>
@@ -16,7 +16,7 @@ function App() {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer className="drawer" title={<Link to="/">MyPortFolio</Link>}>
+        <Drawer title={<Link style={{textDecoration: "none", color: "#757575"}}  to="/">Portfolio</Link>}>
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/about">About</Link>
